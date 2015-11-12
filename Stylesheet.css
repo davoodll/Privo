@@ -1,0 +1,245 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10.aug.2015, 01:37:41
+    Author     : Davood
+*/
+
+body{
+    font-family:lucida grande, tahoma, verdana,arial,sans-serif;
+    background-color: #82878d ;
+    margin-top: -8px;
+    margin-bottom: -8px;
+    
+}
+
+body p{
+    font-size: 0.8em;
+    line-height: 1.28;
+    
+}
+
+#wrapper{
+    width: 1080px;
+    background-color: none;
+    margin: 0 auto;
+    padding-top: -10px;
+    padding: 10px;
+    border: none;
+    background-image: url("background.png");
+    height: 1000px;
+   
+    
+}
+#logo{
+    padding-top: 50px;
+    text-align: center;
+}
+#banner{
+    background-image: url(../Images/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid #dedede;
+    height: 200px;
+    
+}
+#content_area{
+    float: left;
+    width: 750px;
+    margin: 20px 0 20px 0;
+    padding: 10px;
+    
+    
+}
+#sidebar{
+    float: right;
+    width: 250px;
+    height: 400px;
+    margin: 20px 10px;
+    padding: 10px;
+    border: 2px solid #E3E3E3;
+    
+}
+#footer{
+    clear: both;
+    width: 76%;
+    height: 60px;
+    padding: 10px;
+    border: none;
+    text-align: center;
+    background-color: #303030;
+    text-shadow: 0.1em 0.1em #333;
+    margin:0 auto;
+    position: absolute;
+    float:left;
+    margin-left: 154px;
+    
+    
+}
+
+#navigation{
+    height: 60px;
+    border: none;
+    margin-top: 130px;
+    text-shadow: 0.1em 0.1em #333;
+    
+    
+    
+}
+
+.nav{
+    list-style: none;
+}
+
+.nav ul{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    display: none;
+    
+}
+
+.nav li{
+    font-size: 40px;
+    float: left;
+    
+    width: 345px;
+    height: 50px;
+    text-align: center;
+    margin-left: -10px;
+    
+}
+.nav a:link, nav a:active, nav a:visited{
+    
+    display: block;
+    color: #26559d;
+    text-decoration: none;
+    font-family:serif;
+    
+}
+.nav a:hover{
+    color: lightblue;
+}
+form{
+    width:400px;
+}
+form ul{
+    list-style-type: none;
+}
+form ul li{
+    margin: 15px 0;
+}
+form label{
+    display:block;
+    font-size: 1.5em;
+}
+form input, textarea{
+    font-size: 1.5em;
+    padding: 5px;
+    border: #ccc 3px solid;
+    width: 100%;
+}
+
+h1{
+    font-style: italic;
+    font-size: 3em;
+    text-align: center;
+}
+#navfooter
+{
+    height: 60px;
+    border: none;
+    text-shadow: 0.1em 0.1em #333;
+    
+}
+#navf {
+    list-style: none;
+}
+#navf ul{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    display: none;
+    
+}
+
+#navf li{
+    font-size: 40px;
+    float: left;
+    position: relative;
+    width: 345px;
+    height: 50px;
+    text-align: center;
+    margin-left: -10px;
+    
+}
+#navf a:link, navf a:active, navf a:visited{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-family: serif;
+    font-size: 0.5em;
+}
+#navf a:hover{
+    color: lightblue;
+}
+ul.gallery {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: none;
+    position: absolute;
+    z-index: 999;
+         
+}
+
+nav ul li:hover ul.gallery{
+    display: block;
+}
+ul.gallery li {
+  height: 300px; 
+  width: 160px;
+  border: 2px black solid;
+  background : #eeeeee;
+  margin: 5em 1.90em;
+  padding: 10px;
+  float: left;
+  display: block;
+  position: static;
+ 
+}
+
+
+ul.gallery li img {
+  margin: 0 auto; 
+}
+
+ul.gallery a {
+  text-decoration: none;
+}
+
+
+ul.gallery div.gallery-title {
+  font-size: 11px;
+  text-align: center;
+  height: 13px;
+}
+
+ul.gallery div.gallery-image {
+  vertical-align: middle;
+  text-align: center;
+  height: 105px;
+}
+
+ul.gallery div.gallery-text {
+  vertical-align: middle;
+  text-align: center;
+  font-size: 12px;
+  height: 42px;
+  overflow: hidden;
+  margin-top: 13.75em;
+  text-shadow: none;
+}
